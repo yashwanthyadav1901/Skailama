@@ -1,0 +1,94 @@
+/* SideBar.css */
+
+.sidebar {
+  background-color: #f3e8ff;
+  color: white;
+  height: 100vh;
+  padding: 0.5rem 0.5rem;
+  transition: width 0.3s;
+  color: #1d1b2014;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-titles {
+  margin-top: 5rem;
+}
+
+.menu-titles p {
+  text-transform: capitalize;
+  color: black;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 0 1rem;
+}
+
+.sidebar-open {
+  width: 18rem;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin: 2rem 0;
+  border-radius: 30px;
+  transition: background-color 0.2s;
+  text-decoration: none; /* Ensure no underline */
+  color: black;
+}
+
+.menu-item:hover {
+  background-color: #e2d8ee;
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #1d1b2014;
+  color: black;
+  font-weight: 600;
+}
+
+.menu-title {
+  font-size: 1rem;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.menu-item.selected {
+  color: white;
+  background-color: #7e22ce;
+}
+
+.menu-icon.icon-selected {
+  background-color: rgb(22, 21, 21);
+  color: white;
+}
+
+.icon-img {
+  width: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.settings {
+  margin: 0;
+}

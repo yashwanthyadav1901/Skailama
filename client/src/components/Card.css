@@ -1,0 +1,47 @@
+.card {
+  width: 80%;
+  display: flex;
+  gap: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+  padding: 0.8rem;
+}
+
+.dp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  text-transform: uppercase;
+  font-size: 50px;
+  padding: 0.5rem 0.3rem;
+  background-color: #7e22ce;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 1rem;
+}
+
+.card-title h3 {
+  font-size: 1.3rem;
+  color: #7e22ce;
+  text-transform: capitalize;
+  padding: 0.3rem 0 0.1rem 0;
+}
+
+.episodes {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.grey {
+  font-size: 12px;
+  color: #969696;
+  font-weight: 400;
+}

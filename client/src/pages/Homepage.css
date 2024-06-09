@@ -108,3 +108,32 @@
 .button-img {
   width: 1.5rem;
 }
+
+/* Projects-styling */
+
+.projects-main {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+
+.projects-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.projects-header-button {
+  font-size: 18px;
+  padding: 0 0.3rem;
+  margin: 0.8rem 0;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1rem;
+  column-gap: 2rem;
+  padding: 1rem 0;
+}
